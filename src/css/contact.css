@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: start;
+    padding: 2vw;
+    flex-direction: column;
+    background: linear-gradient(rgb(238, 67, 136),rgb(185, 38, 99));
+}
+
+.con-section .upper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(32, 31, 31,0.2);
+    margin-bottom: 3vw;
+    padding: 3vw;
+}
+
+.con-section .upper p{
+    font-size: 5vw;
+    color: white;
+    font-weight: bold;
+}
+
+.con-section .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2vw;
+    background-color: rgba(32, 31, 31,0.2);
+    margin-bottom: 4vw;
+}
+
+.con-section .info .card{
+    width: 100%;
+    padding: 2vw 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 1vw;
+    margin-bottom: 3vw;
+}
+
+
+
+.con-section .info .card i{
+    color: white;
+    font-size: 5vw;
+    width: 6vw;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con-section .info .card h6{
+    color: white;
+    font-size: 4vw;
+}
+
+
+.con-section .submit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(32, 31, 31,0.2);
+    flex-direction: column;
+    padding:  2vw;
+}
+
+.con-section .submit input{
+    width: 100%;
+    height: 10vw;
+    padding: 0 2vw;
+    font-size: 4vw;
+    border: none;
+    outline: none;
+    margin-bottom: 3vw;
+}
+
+.con-section .submit textarea{
+    width: 100%;
+    height: 15vw;
+    padding: 0 2vw;
+    font-size: 4vw;
+    border: none;
+    outline: none;
+    margin-bottom: 3vw;
+}
+.con-section .submit button{
+    width: 50%;
+    padding: 3vw 2vw;
+    background-color: rgb(238, 67, 136);
+    color: white;
+    font-size: 4vw;
+    font-weight: 500;
+    border-radius: 2vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+}
+
+.con-section .submit button:active{
+    background-color: black;
+}

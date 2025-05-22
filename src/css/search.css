@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section-2{
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 135, 171, 0.088);
+    padding: 2vw;
+    position: relative;
+    padding-bottom: 20vw;
+}
+
+.section-2 .div-search{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    margin-bottom: 5vw;
+    border-radius: 4vw;
+    padding: 0 2vw 0 0;
+    
+}
+
+
+.section-2 .div-search i{
+    color: white;
+    font-size: 3vw;
+    margin-right: 2vw;
+    width: 6vw;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(238, 67, 136);
+}
+
+.section-2 .div-search input{
+    width: 80%;
+    outline: none;
+    font-size: 3vw;
+    border: none;
+    height: 7vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+.section-2 .div-cathegory {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5vw;
+}
+.section-2 .div-cathegory button{
+    padding: 2vw 4vw;
+    background-color: rgb(238, 67, 136);
+    color: white;
+    font-size: 3vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    transition: 0.15s;
+}
+
+.section-2 .div-cathegory button:active{
+    background-color: black;
+}
+
+.section-2 .div-more{
+    width: 45%;
+    background-color: rgba(0, 0, 0,0.7);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: -60%;
+    padding: 2vw;
+    transition: 0.5s;
+    z-index: 6;
+}
+
+.section-2 .div-more h6{
+    color: white;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    transition: 0.15s;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.section-2 .div-more h6:active{
+    color: rgb(216, 43, 72);
+}
+
+.section-2 .mode-list{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 50vh;
+  overflow-y: scroll;
+  padding-bottom: 10vw;
+}
+
+.section-2 .mode-list .content{
+    width: 48%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    border-radius: 2vw;
+    padding: 2vw;
+    flex-direction: column;
+    box-shadow: 0 0 5vw rgb(234, 231, 231);
+    margin-top: 2vw;
+    transition: 0.3s;
+}
+
+.section-2 .mode-list .content:active{
+    box-shadow: 0 0 10vw rgb(234, 231, 231);
+}
+
+.section-2 .mode-list .content .photo-detail{
+    width: 98vw;
+    height: 38vh;
+    background-color: rgba(0, 0, 0,0.7);
+    scale: (0);
+    position: absolute;
+    z-index: 5;
+    top: 20vh;
+    left: 1vw;
+    padding: 2vw;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.section-2 .mode-list .content .photo-detail button{
+    background-color: white;
+    width: 15vw;
+    padding: 3vw;
+    font-size: 3vw;
+    color: rgb(238, 67, 136);
+    border: none;
+    transition: 0.15s;
+    margin-bottom: 4vw;
+    border-radius: 2vw;
+}
+.section-2 .mode-list .content .photo-detail button:active{
+    background-color: rgb(238, 67, 136);
+    color: white;
+}
+
+.section-2 .mode-list .content .photo-detail .div-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2 .mode-list .content .photo-detail .div-img img{
+    width: 45vw;
+    height: 26vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+.section-2 .mode-list .content img{
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2vw;
+    margin-bottom: 2vw;
+}
+.section-2 .mode-list .content h3{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 4vw;
+    margin-bottom: 2vw;
+}
+
+.section-2 .mode-list .content .size{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 2vw;
+}
+
+.section-2 .mode-list .content .size h5{
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgb(137, 127, 127);
+    margin-right: 3vw;
+}
+
+.section-2 .mode-list .content .size h6{
+    font-size: 3vw;
+    font-weight: 600;
+    color: rgb(137, 127, 127);
+}
+
+.section-2 .mode-list .content h2{
+  font-size: 4vw;
+}
+
+.section-2 .mode-list .content h2 i{
+    color: rgb(238, 67, 136);
+    margin-right: 2vw;
+}
