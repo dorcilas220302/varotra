@@ -2,7 +2,7 @@ const entana=[
    {
     vidiny:"38.000 Ar",
     sary:"/varotra/images/Entana/Bodysuite-Sà2XL.png",
-    sary1:"/varotra/varotra/images/Entana/Bodysuite-38000ar.png",
+    sary1:"/varotra/images/Entana/Bodysuite-38000ar.png",
     taille:"S-M-L-XL-2XL",
     karazany:"bodysuite"
    },
@@ -85,8 +85,8 @@ const entana=[
      },
      {
       vidiny:"36.000 Ar",
-      sary:"/images/Entana/Soutien3-SàXL.png",
-      sary1:"/images/Entana/Soutien3-36000ar.png",
+      sary:"/varotra/images/Entana/Soutien3-SàXL.png",
+      sary1:"/varotra/images/Entana/Soutien3-36000ar.png",
       taille:"S-M-L-XL",
       karazany:"soutien"
      },
