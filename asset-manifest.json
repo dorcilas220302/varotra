@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/varotra/static/css/main.f1297982.css",
-    "main.js": "/varotra/static/js/main.ec8278d9.js",
+    "main.css": "/varotra/static/css/main.bac261fa.css",
+    "main.js": "/varotra/static/js/main.e99e1785.js",
     "static/media/bg.jpg": "/varotra/static/media/bg.64b8e1b3e45117ff54ab.jpg",
     "index.html": "/varotra/index.html",
-    "main.f1297982.css.map": "/varotra/static/css/main.f1297982.css.map",
-    "main.ec8278d9.js.map": "/varotra/static/js/main.ec8278d9.js.map"
+    "main.bac261fa.css.map": "/varotra/static/css/main.bac261fa.css.map",
+    "main.e99e1785.js.map": "/varotra/static/js/main.e99e1785.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1297982.css",
-    "static/js/main.ec8278d9.js"
+    "static/css/main.bac261fa.css",
+    "static/js/main.e99e1785.js"
   ]
 }
