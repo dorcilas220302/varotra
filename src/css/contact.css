@@ -11,7 +11,7 @@
     justify-self: start;
     padding: 2vw;
     flex-direction: column;
-    background: linear-gradient(rgb(238, 67, 136),rgb(185, 38, 99));
+    background: linear-gradient(#ff0f6f,rgb(216, 27, 106));
 }
 
 .con-section .upper{
@@ -20,12 +20,12 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(32, 31, 31,0.2);
-    margin-bottom: 3vw;
-    padding: 3vw;
+    margin-bottom: 5vw;
+    padding: 4vw;
 }
 
 .con-section .upper p{
-    font-size: 5vw;
+    font-size: 4.5vw;
     color: white;
     font-weight: bold;
 }
@@ -38,7 +38,7 @@
     flex-direction: column;
     padding: 2vw;
     background-color: rgba(32, 31, 31,0.2);
-    margin-bottom: 4vw;
+    margin-bottom: 6vw;
 }
 
 .con-section .info .card{
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(32, 31, 31,0.2);
+    background-color: rgba(32, 31, 31,0.1);
     flex-direction: column;
     padding:  2vw;
 }
